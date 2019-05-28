@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TD IPI Android Studio</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="greetings">Hello World !</string>
+    <!--login-->
+    <string name="login_login">Login</string>
+    <string name="login_password">Password</string>
+    <string name="login_button">Sign In</string>
+    <string name="login_error">Wrong username or password!</string>
+    <!--rating-->
+    <string name="rating_label">Your rating</string>
+    <string name="rating_author">Your name</string>
+    <string name="rating_comment">Tell us more!</string>
+    <string name="rating_submit">Submit your rating</string>
+</resources>

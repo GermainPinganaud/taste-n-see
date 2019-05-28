@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="40"
+        app:srcCompat="@drawable/logo" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="60"
+        android:gravity="center">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:id="@+id/main_dishes"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:onClick="choiceDone"
+                android:padding="@dimen/main_img_padding"
+                app:srcCompat="@drawable/menu" />
+
+            <ImageView
+                android:id="@+id/main_upload"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:onClick="choiceDone"
+                android:padding="@dimen/main_img_padding"
+                app:srcCompat="@drawable/upload" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:id="@+id/main_rate"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:cropToPadding="false"
+                android:onClick="choiceDone"
+                android:padding="@dimen/main_img_padding"
+                app:srcCompat="@drawable/rate" />
+
+            <ImageView
+                android:id="@+id/main_contact"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:onClick="choiceDone"
+                android:padding="@dimen/main_img_padding"
+                app:srcCompat="@drawable/contact" />
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

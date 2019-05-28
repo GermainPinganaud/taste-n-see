@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Application IPI</string>
+    <string name="title_activity_login">Connexion</string>
+    <string name="greetings">Bonjour à tous !</string>
+    <!--login-->
+    <string name="login_login">Nom d\'utilisateur</string>
+    <string name="login_password">Mot de passe</string>
+    <string name="login_button">Se connecter</string>
+    <string name="login_error">Mauvais nom d\'utilisateur ou mot de passe!</string>
+    <!--rating-->
+    <string name="rating_label">Votre avis</string>
+    <string name="rating_author">Votre nom</string>
+    <string name="rating_comment">Dites-nous en plus!</string>
+    <string name="rating_submit">Envoyer votre avis</string>
+</resources>
